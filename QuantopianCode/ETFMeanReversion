@@ -30,7 +30,7 @@ def initialize(context):
     context.xlb = sid(19654) #Materials 101
     context.xlre = sid(49472) #Real estate 104
     context.xlk = sid(19658) #Technology  311       
-    context.xlu = sid(19660) #Utilities   207
+    context.xlu = sid(19660) #Utilities   207  Add more below if interested
     
     context.sectors = [context.xly,
                       context.xlp,
@@ -213,3 +213,4 @@ def count_positions(context,data):
     record(longs=longs)
     record(leverage=leverage)  
     
+Minor
