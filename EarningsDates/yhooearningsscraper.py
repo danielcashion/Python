@@ -2,6 +2,7 @@
 Yahoo! Earnings Calendar scraping
 I implemented this as a one-by-one load, but can easily be extended to pull via 
 ODBC from a table with the list of symbols
+Should be read from a ODBC connection to database tables
 '''
 import datetime
 import json
