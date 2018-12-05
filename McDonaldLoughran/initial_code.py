@@ -1,7 +1,7 @@
 '''
 Initial creation of folder
 '''
-import urllib2
+import urllib
 
 # file location for the master word list.
 
@@ -10,7 +10,7 @@ url = "https://drive.google.com/file/d/0B4niqV00F3msaFZGUEZNTGtBblU/view/Loughra
 
 #download in chunks
 file_name = url.split('/')[-1]
-u = urllib2.urlopen(url)
+u = urllib.request.urlopen(url)
 f = open(file_name, 'wb')
 meta = u.info()
 file_size = int(meta.getheaders("Content-Length")[0])
